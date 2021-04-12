@@ -41,4 +41,9 @@ dependencies {
 
     //Add the following dependencies in you app level gradle file if not exists
     implementation 'com.github.jd-alexander:library:1.1.0'
+
+    implementation 'com.google.android.gms:play-services-awareness:18.0.1'
+    implementation 'com.google.android.libraries.places:places:2.4.0'
+    implementation "com.google.android.gms:play-services-places:17.0.0"
+    //ripple background depend
 }

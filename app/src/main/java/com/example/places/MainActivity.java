@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         btnRoute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               /* Intent relation = new Intent(getApplicationContext(), Route.class);
-                startActivity(relation);*/
+                Intent relation = new Intent(getApplicationContext(), MapActivity.class);
+                startActivity(relation);
             }
         });
 
