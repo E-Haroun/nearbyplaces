@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
         btnCities.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*Intent relation = new Intent(getApplicationContext(), Cities.class);
-                startActivity(relation);*/
+                Intent relation = new Intent(getApplicationContext(), Cities.class);
+                startActivity(relation);
             }
         });
 
